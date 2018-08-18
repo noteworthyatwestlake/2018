@@ -371,10 +371,9 @@ header{
     
 @media only screen and (max-width: 60rem){
     
-html, body {
     max-width: 100%;
     overflow:visible;
-}
+
 
     
 	.toggle-menu{
@@ -487,7 +486,7 @@ html, body {
   width: 98%;
   z-index: -5;
   margin-bottom: -50%;
-  margin-top: -22%;
+  margin-top: -30%;
 }
 
 
