@@ -50,7 +50,7 @@ a:hover, a:active{
   left: 45%;
   top: 25%;
   min-width: 55%;
-  height: 65%;
+  height: auto;
   z-index: 3;
 }
 
@@ -59,6 +59,8 @@ h3 {
     color: #ffffff;
     font-size: 50px;
     padding-right: 2%;
+    margin: 0 auto;
+    padding-top: 2%;
     text-align: right;
         
 }
@@ -105,7 +107,6 @@ p {
     color: #ffffff;
     text-align: left;
     padding-left: 2%;
-    padding-bottom: 7%;
     font-size: 20px;
     
 }
@@ -485,6 +486,7 @@ header{
   height: auto;
   width: 98%;
   z-index: -5;
+  padding-bottom: 20px;
   margin-bottom: -175px;
   margin-top: -30%;
 }
@@ -499,6 +501,7 @@ header{
   height: auto;
   width: 98%;
   z-index: -5;
+  padding-bottom: 20px;
   margin-bottom: -175px;
 }
 
@@ -514,6 +517,7 @@ header{
   height: auto;
   width: 98%;
   z-index: -5;
+  padding-bottom: 20px;
   margin-bottom:-175px;
 }
 
