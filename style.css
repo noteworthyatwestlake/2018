@@ -11,6 +11,15 @@ html, body {
     overflow-x: hidden;
 }
 
+.hte {
+    
+    max-width: 100%;
+    overflow-y:hidden;
+    overflow-x:hidden;
+    
+    
+}
+
 
 *{
     box-sizing: border-box;
@@ -176,27 +185,36 @@ p {
 }
 
 
-.aboutnoteworthy {
+.leftalignbox {
     
   background-color: rgba(10, 19, 31,0.85);
   box-shadow: 0px 31px 64.78px 14.22px rgba(0, 0, 0, 0.35);
   position: absolute;
-  right: 56%;
-  top: 25%;
-  min-width: 44%;
-  height: 65%;
-  z-index: 3;
+  right: 45%;
+  top: 22%;
+  min-width: 55%;
+  height: 63%;
+  z-index: -5;
 }
 
 
-
+.article img {
+    
+max-width: 22%;   
+margin: 0 auto;
+margin-right: 13%;
+margin-top: 1.5%;
+float: right;
+    
+    
+    
+}
 
 .checklist {
     
   background-color:rgba(0,255,255,0.85);
   box-shadow: 0px 31px 64.78px 14.22px rgba(0, 0, 0, 0.35);
-  margin-top: 2%;
-  margin-bottom: 35%;
+  margin-top: 0.5%;
   position: relative;
   right: 0%;
   width: 32%;
@@ -279,6 +297,18 @@ p {
 
 
 /*content style*/
+
+.pastwinnerspic img {
+    
+max-width: 21.5%;   
+margin: 0 auto;
+margin-right: 12%;
+margin-top: 3%;
+float: right;
+    
+}
+
+
 main{
 	padding: 1.5rem;
 	line-height: 2.6rem;
@@ -366,9 +396,6 @@ header{
 
 
 
-
-
-
     
 @media only screen and (max-width: 60rem){
     
@@ -389,6 +416,14 @@ header{
 
 	}
     
+    .hte {
+    
+    max-width: 100%;
+    overflow-y:visible;
+    overflow-x:hidden;
+    
+    
+}
     
 	.toggle-menu:hover {
         
@@ -535,6 +570,19 @@ header{
 }
 
     
+    .leftalignbox {
+    
+  background-color: rgba(10, 19, 31,0.85);
+  display: inline-block;
+  left: 0%;
+  margin-top: 20%;
+  margin-bottom: 10px;
+  min-width:98%;
+  height: auto;
+  position: relative;
+  z-index: -5;
+}
+
     .checklist {
         
         margin-top: 20%;
@@ -546,5 +594,27 @@ header{
 
     }
 
+.pastwinnerspic img {
+    
+position: relative;    
+max-width: 98%;   
+margin: 0 auto;
+margin-right: 1%;
+margin-left: 1%;
+float: right;
+    
+}
+    
+    .article img {
+        
+position: relative;    
+max-width: 98%;   
+margin: 0 auto;
+margin-right: 1%;
+margin-left: 1%;
+float: right;
+    
+    
+}
 
 }
