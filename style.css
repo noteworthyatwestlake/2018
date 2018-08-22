@@ -232,7 +232,7 @@ float: right;
   background-color: rgba(10, 19, 31,0.85);
   box-shadow: 0px 31px 64.78px 14.22px rgba(0, 0, 0, 0.35);
   position: absolute;
-  right: 1%;
+  right: 1%;s
   top: 90%;
   min-width: 98%;
   height: auto;
@@ -421,19 +421,22 @@ header{
 
 
 
+
 * {box-sizing:border-box}
 
 /* Slideshow container */
 .slideshow-container {
   max-width: 1000px;
   position: relative;
-  margin: 0 auto;
+  margin: auto;
   margin-top: 2.5%;
-}
+  }
 
 /* Hide the images by default */
 .mySlides {
     display: none;
+    position: static;
+    z-index: -5;
 }
 
 /* Next & previous buttons */
@@ -459,18 +462,7 @@ header{
 
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
-  background-color: rgba(10, 19, 31,0.85);
-}
-
-
-
-/* Number text (1/3 etc) */
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
+  background-color: rgba(0,0,0,0.8);
 }
 
 
@@ -511,6 +503,7 @@ header{
     }
 
 	.nav-list{
+        position: absolute;
 		display: block;
 		width: 100%;
 		line-height: 1rem;
@@ -525,7 +518,7 @@ header{
 		display: block;
 		margin:2rem auto;
 		text-align: center;
-            
+        z-index: 4;    
 	}
     
      .site-title img{
@@ -557,7 +550,7 @@ header{
     height:2%;
     text-align: center;
     background-color: #5CEFE1;
-    z-index: 4;
+   z-index: 4;
     }
 
 	.active{
@@ -707,8 +700,33 @@ float: right;
   position: relative;
   z-index: -5;
 }
-
+ 
     
+
+* {box-sizing:border-box}
+
+
+.slideshow-container {
+  max-width: 1000px;
+  position: static;
+  margin: auto;
+  margin-top: 35%;
+  z-index: -5;
+}    
+ 
+    .prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 55%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
 }
 
+    
 }
