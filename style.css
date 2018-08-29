@@ -1,8 +1,8 @@
 html,header, footer, body, nav, div, img, a,ul, li, h1, h2{
-	margin: 0;
-	padding: 0;
-	text-decoration: none;
-	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
 }
 
 html, body {
@@ -12,12 +12,12 @@ html, body {
 }
 
 .hte {
-    
+
     max-width: 100%;
     overflow-y:hidden;
     overflow-x:hidden;
-    
-    
+
+
 }
 
 
@@ -27,40 +27,40 @@ html, body {
 }
 
 html{
-	font-size: 14px;
+    font-size: 14px;
 }
 body{
-	width: 100%;
-	margin:0;
-	font-family: Gafata, sans-serif;
+    width: 100%;
+    margin:0;
+    font-family: Gafata, sans-serif;
     background-image: url(images/Noteworthy%20Stage222.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
 }
 a:link, a:visited{
-	color:black;
+    color:black;
     text-align: center;
     font-family: Lobster, cursive;
-	transition: .2s color ease-in-out;
+    transition: .2s color ease-in-out;
     width: 17rem;
     height: 8.5rem;
 }
 a:hover, a:active{
-	color: grey;
+    color: grey;
     transition: .2
 }
 
 .welcomebanner {
-    
-  background-color: rgba(10, 19, 31,0.85);
-  box-shadow: 0px 31px 64.78px 14.22px rgba(0, 0, 0, 0.35);
-  position: absolute;
-  left: 45%;
-  top: 25%;
-  min-width: 55%;
-  height: auto;
-  z-index: 3;
+
+    background-color: rgba(10, 19, 31,0.85);
+    box-shadow: 0px 31px 64.78px 14.22px rgba(0, 0, 0, 0.35);
+    position: absolute;
+    left: 45%;
+    top: 25%;
+    min-width: 55%;
+    height: auto;
+    z-index: 3;
 }
 
 h3 {
@@ -71,7 +71,7 @@ h3 {
     margin: 0 auto;
     padding-top: 2%;
     text-align: right;
-        
+
 }
 
 h4 {
@@ -82,7 +82,7 @@ h4 {
     margin: 0 auto;
     font-weight: 5px;
     text-align: center;
-        
+
 }
 
 
@@ -95,7 +95,7 @@ h5 {
     padding-top: 3%;
     padding-right: 2%;
     text-align: right;
-        
+
 }
 
 h6 {
@@ -107,7 +107,7 @@ h6 {
     padding-top: 3%;
     padding-right: 2%;
     text-align: right;
-        
+
 }
 
 
@@ -119,26 +119,26 @@ p {
     text-align: left;
     padding-left: 2%;
     font-size: 20px;
-    
+
 }
 
 .p2 {
-    
+
     font-family: raleway;
     color: #ffffff;
     text-align: center;
     font-size: 20px; 
-    
+
 }
 
 .abouttext {
-    
+
     font-family: raleway;
     color: #ffffff;
     text-align: left;
     font-size: 20px; 
-    
-    
+
+
 }
 
 
@@ -149,227 +149,230 @@ p {
 
 
 .quickinfo1{
-  
-  background-color: rgba(10, 19, 31, 0.85);
-  box-shadow: 0px 31px 64.78px 14.22px rgba(0, 0, 0, 0.35);
-  position: absolute;
-  left: 0%;
-  top: 20%;
-  width: 30%;
-  height: 23%;
-  z-index: 4;
+
+    background-color: rgba(10, 19, 31, 0.85);
+    box-shadow: 0px 31px 64.78px 14.22px rgba(0, 0, 0, 0.35);
+    position: absolute;
+    left: 0%;
+    top: 20%;
+    width: 30%;
+    height: 23%;
+    z-index: 4;
 }
 
 
 .quickinfo2{
-    
-  background-color: rgba(10, 19, 31, 0.85);
-  box-shadow: 0px 31px 64.78px 14.22px rgba(0, 0, 0, 0.35);
-  position: absolute;
-  left: 0%;
-  top: 47%;
-  width: 30%;
-  height: 23%;
-  z-index: 4;
+
+    background-color: rgba(10, 19, 31, 0.85);
+    box-shadow: 0px 31px 64.78px 14.22px rgba(0, 0, 0, 0.35);
+    position: absolute;
+    left: 0%;
+    top: 47%;
+    width: 30%;
+    height: 23%;
+    z-index: 4;
 }
 
 
 .quickinfo3 {
-    
-  background-color: rgba(10, 19, 31, 0.85);
-  box-shadow: 0px 31px 64.78px 14.22px rgba(0, 0, 0, 0.35);
-  position: absolute;
-  left: 0%;
-  top: 74%;
-  width: 30%;
-  height: 23%;
-  z-index: 4;
+
+    background-color: rgba(10, 19, 31, 0.85);
+    box-shadow: 0px 31px 64.78px 14.22px rgba(0, 0, 0, 0.35);
+    position: absolute;
+    left: 0%;
+    top: 74%;
+    width: 30%;
+    height: 23%;
+    z-index: 4;
 }
 
 
 .leftalignbox {
-    
-  background-color: rgba(10, 19, 31,0.85);
-  box-shadow: 0px 31px 64.78px 14.22px rgba(0, 0, 0, 0.35);
-  position: absolute;
-  right: 45%;
-  top: 22%;
-  min-width: 55%;
-  height: 63%;
-  z-index: -5;
+
+    background-color: rgba(10, 19, 31,0.85);
+    box-shadow: 0px 31px 64.78px 14.22px rgba(0, 0, 0, 0.35);
+    position: absolute;
+    right: 45%;
+    top: 22%;
+    min-width: 55%;
+    height: 63%;
+    z-index: -5;
 }
 
 
 .article img {
-    
-max-width: 22%;   
-margin: 0 auto;
-margin-right: 13%;
-margin-top: 1.5%;
-float: right;
-    
-    
-    
+
+    max-width: 22%;   
+    margin: 0 auto;
+    margin-right: 13%;
+    margin-top: 1.5%;
+    float: right;
+
+
+
 }
 
 .checklist {
-    
-  background-color:rgba(0,255,255,0.85);
-  box-shadow: 0px 31px 64.78px 14.22px rgba(0, 0, 0, 0.35);
-  margin-top: 0.5%;
-  position: relative;
-  right: 0%;
-  width: 32%;
-  height: auto;
-  
+
+    background-color:rgba(0,255,255,0.85);
+    box-shadow: 0px 31px 64.78px 14.22px rgba(0, 0, 0, 0.35);
+    margin-top: 0.5%;
+    position: relative;
+    right: 0%;
+    width: 32%;
+    height: auto;
+
 
 
 }
 
 
 .transcript{
-    
-  background-color: rgba(10, 19, 31,0.85);
-  box-shadow: 0px 31px 64.78px 14.22px rgba(0, 0, 0, 0.35);
-  position: absolute;
-  right: 1%;
-  top: 92%;
-  min-width: 98%;
-  height: auto;
-  z-index: -5;
-    
+
+    background-color: rgba(10, 19, 31,0.85);
+    box-shadow: 0px 31px 64.78px 14.22px rgba(0, 0, 0, 0.35);
+    position: absolute;
+    right: 1%;
+    top: 92%;
+    min-width: 98%;
+    height: auto;
+    z-index: -5;
+
 }
 
-/* Customize the label (the container) */
+
+
+/*following code is for the checklist on my "how to enter" page*/
+
+/* Styling the container */
 
 .container {
-  display: block;
-  position: relative;
-  top: 5%;
-  padding-left: 5%;
-  padding-right: 20%;
-  padding-bottom: 15%;
-  margin: 0 auto;
-  cursor: pointer;
-  font-family: raleway;
-  font-size: 20px;
-  color: black;
+    display: block;
+    position: relative;
+    top: 5%;
+    padding-left: 5%;
+    padding-right: 20%;
+    padding-bottom: 15%;
+    margin: 0 auto;
+    cursor: pointer;
+    font-family: raleway;
+    font-size: 20px;
+    color: black;
 
 }
 
-/* Hide the browser's default checkbox */
+/* Hides the default checkbox */
 .container input {
-  position: absolute;
-  opacity: 0;
-  cursor: pointer;
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
 }
 
-/* Create a custom checkbox */
+/* Create the checkbox */
 .checkmark {
-  position: absolute;
-  top: 5%;
-  padding: 5px;
-  right: 2%;
-  height: 40px;
-  width: 40px;
-  background-color: #eee;
+    position: absolute;
+    top: 5%;
+    padding: 5px;
+    right: 2%;
+    height: 40px;
+    width: 40px;
+    background-color: #eee;
 }
 
-/* On mouse-over, add a grey background color */
+/* grey on hover */
 .container:hover input ~ .checkmark {
-  background-color: #ccc;
+    background-color: #ccc;
 }
 
-/* When the checkbox is checked, add a blue background */
+/* When the checkbox is checked, black background */
 .container input:checked ~ .checkmark {
-  background-color: black;
+    background-color: black;
 }
 
-/* Create the checkmark/indicator (hidden when not checked) */
 .checkmark:after {
-  content: "";
-  position: absolute;
-  display: none;
+    content: "";
+    position: absolute;
+    display: none;
 }
 
-/* Show the checkmark when checked */
+/* Show the checkmark when clicked */
 .container input:checked ~ .checkmark:after {
-  display: block;
+    display: block;
 }
 
-/* Style the checkmark/indicator */
+/* Styling the checkmark */
 .container .checkmark:after {
-  
-  left: 15px;
-  top: 3px;
-  width: 10px;
-  height: 25px;
-  border: solid white;
-  border-width: 0 3px 3px 0;
-  -webkit-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  transform: rotate(45deg);
+
+    left: 15px;
+    top: 3px;
+    width: 10px;
+    height: 25px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
 }
 
 
 /*content style*/
 
 .pastwinnerspic img {
-    
-max-width: 21.5%;   
-margin: 0 auto;
-margin-right: 12%;
-margin-top: 3%;
-float: right;
-    
+
+    max-width: 21.5%;   
+    margin: 0 auto;
+    margin-right: 12%;
+    margin-top: 3%;
+    float: right;
+
 }
 
 
 main{
-	padding: 1.5rem;
-	line-height: 2.6rem;
+    padding: 1.5rem;
+    line-height: 2.6rem;
 }
 section>p{
-	text-indent: 2.6rem;
+    text-indent: 2.6rem;
 }
 
 /*styling the header part*/
 .toggle-menu{
-	display: none;
+    display: none;
 }
 header{
-	margin:0 auto;
+    margin:0 auto;
     height: auto;
     text-align: center;
     background-color: aqua;
 }
 .site-title img{
-	max-width: 75%;
+    max-width: 75%;
     margin: 0 auto;
-	display: inline-block;
-	vertical-align: middle;
-	-webkit-filter: grayscale(90%);
-	-moz-filter: grayscale(90%);
-	filter: grayscale(90%);
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-filter: grayscale(90%);
+    -moz-filter: grayscale(90%);
+    filter: grayscale(90%);
 }
 
 
 .nav-list{
-	display: flex;
-	flex-flow: row;
-	justify-content: center;
-	align-items: center;
-	white-space: nowrap;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
 }
 .nav-list > li {
-	position: relative;
+    position: relative;
 }
 
 .nav-list>li:not(.has-logo)>a{
-    
-	display:inherit;
+
+    display:inherit;
     font-size: 21px;
-	padding-top: 3rem;
+    padding-top: 3rem;
     padding-left: 1rem;
     text-align: center;
     align-items: center;
@@ -377,60 +380,63 @@ header{
 
 
 .nav-list ul{
-	position: absolute;
-	z-index: 1010;
-	background-color: #fff;
-	line-height: 2rem;
-	left: -9999px;	
+    position: absolute;
+    z-index: 1010;
+    background-color: #fff;
+    line-height: 2rem;
+    left: -9999px;	
 }
 
 .nav-list ul a{
-	font-weight: normal;
-	display: block;
-	padding: .3rem 1rem;
+    font-weight: normal;
+    display: block;
+    padding: .3rem 1rem;
 }
 
 .nav-list > li:hover a + ul{
-	left: 0;
-	top:100%;
+    left: 0;
+    top:100%;
 }
 
 .mobile-display{
-	display: none;
+    display: none;
 }
 
 
 
 .question {
-    
+
     font-size: 25px;
     font-style: oblique;
-    
+
 }
 
 .may {
-    
+
     font-size: 18px;
 }
 
 .gnes {
-    
+
     font-size: 18px;
-    
+
 }
 
 
 
 
-* {box-sizing:border-box}
+* { 
+    box-sizing:border-box
+}
 
-/* Slideshow container */
+/* Slideshow-container */
+
 .slideshow-container {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
-  margin-top: 2.5%;
-  }
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+    margin-top: 2.5%;
+}
 
 /* Hide the images by default */
 .mySlides {
@@ -439,224 +445,246 @@ header{
     z-index: -5;
 }
 
-/* Next & previous buttons */
+/* Next and back buttons */
 .prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -22px;
-  padding: 16px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
 }
 
-/* Position the "next button" to the right */
+/* move the next button right */
 .next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
+    right: 0;
+    border-radius: 3px 0 0 3px;
 }
 
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
+    background-color: rgba(0,0,0,0.8);
 }
 
 
 
+/* the media query codes for the device screen size breakpoint in which the location of my images and text alters to fit the mobile version of my page */
 
 @media only screen and (max-width: 60rem){
-    
-   html, body {
-    max-width: 100%;
-    overflow:visible;
-}
-    
-	.toggle-menu{
-		display: block;
-		max-width: inherit;
+
+    html, body {
+        max-width: 100%;
+        overflow:visible;
+    }
+
+
+
+    /* the following code is for my drop down navigation menu. */
+
+
+    /*codes for my hamburger button icon, which allows access to the drop down menu*/
+
+    .toggle-menu{ 
+        display: block;
+        max-width: inherit;                
         max-height: 38px;
-		background-color: #00ffff;
-		text-align: center;
+        background-color: #00ffff;
+        text-align: center;
         font-size: 30px;
         z-index: 4;
-		
 
-	}
-    
+
+    }
+
     .hte {
-    
-    max-width: 100%;
-    overflow-y:visible;
-    overflow-x:hidden;
-    
-    
-}
-    
-	.toggle-menu:hover {
-        
+
+        max-width: 100%;
+        overflow-y:visible;
+        overflow-x:hidden;
+
+
+    }
+
+    /* changes the colour of the button when hovered over */
+
+    .toggle-menu:hover {
+
         background-color: darkcyan;
-    
+
     }
 
-	.nav-list{
+
+    /* styling the navigation menu */
+
+    .nav-list{ 
         position: absolute;
-		display: block;
-		width: 100%;
-		line-height: 1rem;
-		z-index: 4;
-        max-height: 0;
-		background-color: #fff;
-		overflow:hidden;
-
-	}
-    
-    	.mobile-display{
-		display: block;
-		margin:2rem auto;
-		text-align: center;
-        z-index: 4;    
-	}
-    
-     .site-title img{
-	  max-width: 100%;
-      padding-bottom: none;
-      margin-top: -25px;
-      margin-bottom: -27px;
-	  display: inline-block;
-	  vertical-align: middle;
-	  -webkit-filter: grayscale(90%);
-	  -moz-filter: grayscale(90%);
-	  filter: grayscale(90%);
-   }
-    
-    a:link, a:visited{
-	color:black;
-    font-family: Lobster, cursive;
-	transition: .2s color ease-in-out;
-    width: inherit;
-    z-index: 4;
-    
-    }
-    
-    .has-logo{
-		display: none;
-	}
-    
-    header{
-    height:2%;
-    text-align: center;
-    background-color: #5CEFE1;
-   z-index: 4;
-    }
-
-	.active{
-		max-height: 50rem;
-		overflow:visible;
+        display: block;
+        width: 100%;
+        line-height: 1rem;
         z-index: 4;
-	}
+        max-height: 0;
+        background-color: #fff;
+        overflow:hidden;
+
+    }
 
 
-	.nav-list  ul{
-		position: absolute;
-		text-indent: 2rem;
-		z-index: 4;
+    a:link, a:visited{
+        color:black;
+        font-family: Lobster, cursive;
+        transition: .2s color ease-in-out;
+        width: inherit;
+        z-index: 4;
+
+    }
+
+    .has-logo{
+        display: none;
+    }
+
+    header{
+        height:2%;
         text-align: center;
-	}
+        background-color: #5CEFE1;
+        z-index: 4;
+    }
 
-.welcomebanner {
-    
-  background-color: rgba(10, 19, 31,0.85);
-  display: inline-block;
-  left: 0%;
-  margin-top: 20%;
-  min-width:98%;
-  height: auto;
-  position: relative;
-  z-index: -5;
-}
+    .active{
+        max-height: 50rem;
+        overflow:visible;
+        z-index: 4;
+    }
+
+
+    .nav-list  ul{
+        position: absolute;
+        text-indent: 2rem;
+        z-index: 4;
+        text-align: center;
+    }
+
+
+
+    /* for my logo, so it stays at the top and still functions as the home button */
+
+    .mobile-display{ 
+        display: block;
+        margin:2rem auto;
+        text-align: center;
+        z-index: 4;    
+    }
+
+    .site-title img{
+        max-width: 100%;
+        padding-bottom: none;
+        margin-top: -25px;
+        margin-bottom: -27px;
+        display: inline-block;
+        vertical-align: middle;
+        -webkit-filter: grayscale(90%);
+        -moz-filter: grayscale(90%);
+        filter: grayscale(90%);
+    }
+
+
+
+
+    /* following is to code for the changing size for my attrubuts of my pages*/
+    .welcomebanner {
+
+        background-color: rgba(10, 19, 31,0.85);
+        display: inline-block;
+        left: 0%;
+        margin-top: 20%;
+        min-width:98%;
+        height: auto;
+        position: relative;
+        z-index: -5;
+    }
 
     .keys {
-    max-width: 100%;
-    
-    
-}
-.quickinfo1{
-  
-  background-color: rgba(10, 19, 31, 0.85); 
-  box-shadow: 0px 31px 64.78px 14.22px rgba(0, 0, 0, 0.35);
-  position: relative;
-  left: 0.5%;
-  height: auto;
-  width: 98%;
-  z-index: -5;
-  padding-bottom: 20px;
-  margin-bottom: -175px;
-  margin-top: -30%;
-}
+        max-width: 100%;
 
 
-.quickinfo2{
-    
-  background-color: rgba(10, 19, 31, 0.85); 
-  box-shadow: 0px 31px 64.78px 14.22px rgba(0, 0, 0, 0.35);
-  position: relative;
-  left: 0.5%;
-  height: auto;
-  width: 98%;
-  z-index: -5;
-  padding-bottom: 20px;
-  margin-bottom: -175px;
-}
+    }
+    .quickinfo1{
+
+        background-color: rgba(10, 19, 31, 0.85); 
+        box-shadow: 0px 31px 64.78px 14.22px rgba(0, 0, 0, 0.35);
+        position: relative;
+        left: 0.5%;
+        height: auto;
+        width: 98%;
+        z-index: -5;
+        padding-bottom: 20px;
+        margin-bottom: -175px;
+        margin-top: -30%;
+    }
 
 
-    
+    .quickinfo2{
 
-.quickinfo3 {
-    
-  background-color: rgba(10, 19, 31, 0.85); 
-  box-shadow: 0px 31px 64.78px 14.22px rgba(0, 0, 0, 0.35);
-  position: relative;
-  left: 0.5%;
-  height: auto;
-  width: 98%;
-  z-index: -5;
-  padding-bottom: 20px;
-  margin-bottom:-175px;
-}
+        background-color: rgba(10, 19, 31, 0.85); 
+        box-shadow: 0px 31px 64.78px 14.22px rgba(0, 0, 0, 0.35);
+        position: relative;
+        left: 0.5%;
+        height: auto;
+        width: 98%;
+        z-index: -5;
+        padding-bottom: 20px;
+        margin-bottom: -175px;
+    }
 
-    
-.aboutnoteworthy {
-    
-  background-color: rgba(10, 19, 31,0.85);
-  box-shadow: 0px 31px 64.78px 14.22px rgba(0, 0, 0, 0.35);
-  position: absolute;
-  right: 2%;
-  top: 25%;
-  min-width: 98%;
-  height: auto;
-  z-index: -5;
-}
 
-    
+
+
+    .quickinfo3 {
+
+        background-color: rgba(10, 19, 31, 0.85); 
+        box-shadow: 0px 31px 64.78px 14.22px rgba(0, 0, 0, 0.35);
+        position: relative;
+        left: 0.5%;
+        height: auto;
+        width: 98%;
+        z-index: -5;
+        padding-bottom: 20px;
+        margin-bottom:-175px;
+    }
+
+
+    .aboutnoteworthy {
+
+        background-color: rgba(10, 19, 31,0.85);
+        box-shadow: 0px 31px 64.78px 14.22px rgba(0, 0, 0, 0.35);
+        position: absolute;
+        right: 2%;
+        top: 25%;
+        min-width: 98%;
+        height: auto;
+        z-index: -5;
+    }
+
+
     .leftalignbox {
-    
-  background-color: rgba(10, 19, 31,0.85);
-  display: inline-block;
-  left: 0%;
-  margin-top: 60px;
-  margin-bottom: 30px;
-  min-width:98%;
-  height: auto;
-  position: relative;
-  z-index: -5;
-}
+
+        background-color: rgba(10, 19, 31,0.85);
+        display: inline-block;
+        left: 0%;
+        margin-top: 60px;
+        margin-bottom: 30px;
+        min-width:98%;
+        height: auto;
+        position: relative;
+        z-index: -5;
+    }
 
     .checklist {
-        
+
         margin-top: 20%;
         margin-bottom: -1%;
         position: relative;
@@ -666,67 +694,67 @@ header{
 
     }
 
-.pastwinnerspic img {
-    
-position: relative;    
-max-width: 98%;   
-margin: 0 auto;
-margin-right: 1%;
-margin-left: 1%;
-float: right;
-    
-}
-    
+    .pastwinnerspic img {
+
+        position: relative;    
+        max-width: 98%;   
+        margin: 0 auto;
+        margin-right: 1%;
+        margin-left: 1%;
+        float: right;
+
+    }
+
     .article img {
-        
-position: relative;    
-max-width: 98%;   
-margin: 0 auto;
-margin-right: 1%;
-margin-left: 1%;
-float: right;
-    
-    
-}
-    
+
+        position: relative;    
+        max-width: 98%;   
+        margin: 0 auto;
+        margin-right: 1%;
+        margin-left: 1%;
+        float: right;
+
+
+    }
+
     .transcript {
-      background-color: rgba(10, 19, 31,0.85);
-  display: inline-block;
-  left: 0%;
-  margin-top: 30px;
-  margin-bottom: 10px;
-  min-width:98%;
-  height: auto;
-  position: relative;
-  z-index: -5;
-}
- 
-    
-
-* {box-sizing:border-box}
+        background-color: rgba(10, 19, 31,0.85);
+        display: inline-block;
+        left: 0%;
+        margin-top: 30px;
+        margin-bottom: 10px;
+        min-width:98%;
+        height: auto;
+        position: relative;
+        z-index: -5;
+    }
 
 
-.slideshow-container {
-  max-width: 1000px;
-  position: static;
-  margin: auto;
-  margin-top: 35%;
-  z-index: -5;
-}    
- 
+
+    * {box-sizing:border-box}
+
+
+    .slideshow-container {
+        max-width: 1000px;
+        position: static;
+        margin: auto;
+        margin-top: 35%;
+        z-index: -5;
+    }    
+
     .prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 55%;
-  width: auto;
-  margin-top: -22px;
-  padding: 16px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-}
+        cursor: pointer;
+        position: absolute;
+        top: 55%;
+        width: auto;
+        margin-top: -22px;
+        padding: 16px;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+    }
 
-    
+
 }
