@@ -48,7 +48,6 @@ a:link, a:visited{
 }
 a:hover, a:active{
     color: grey;
-    transition: .2
 }
 
 .welcomebanner {
@@ -80,7 +79,7 @@ h4 {
     font-size: 22px;
     padding-top: 3%;
     margin: 0 auto;
-    font-weight: 5px;
+    font-weight: normal;
     text-align: center;
 
 }
@@ -90,7 +89,7 @@ h5 {
     font-family: Gafata;
     color: #ffffff;
     font-size: 46px;
-    font-weight: 15;
+    font-weight: normal;
     margin: 0 auto;
     padding-top: 3%;
     padding-right: 2%;
@@ -102,7 +101,7 @@ h6 {
     font-family: Gafata;
     color: black;
     font-size: 46px;
-    font-weight: 15;
+    font-weight: normal;
     margin: 0 auto;
     padding-top: 3%;
     padding-right: 2%;
@@ -144,7 +143,7 @@ p {
 
 .keys {
     max-width: 100%;
-    margin-bottom: 0 auto;
+    margin-bottom: 0;
 }
 
 
@@ -581,7 +580,7 @@ header{
 
     .site-title img{
         max-width: 100%;
-        padding-bottom: none;
+        padding-bottom: 0;
         margin-top: -25px;
         margin-bottom: -27px;
         display: inline-block;
